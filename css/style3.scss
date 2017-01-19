@@ -5,6 +5,20 @@
 @import "style4.css";
 @import "fonts.css";
 
+.tornado__about_text {
+	padding-bottom: 30px;
+	font-family: "RobotoLight";
+	text-align: justify;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+.section_padding-dc_view {
+	text-align: center;
+    h2 {
+    	padding-bottom: 35px;
+    }
+}
 
 @media only screen and (min-width : 320px) {
 }
