@@ -28,6 +28,11 @@
 
 <!-- Menu -->
 <section class="dd-main-menu-wrap">
+	<div class="ico-wrap">
+		<div class="dd-ico">
+			<img src="img/menu-ico.png" alt="">
+		</div>
+	</div>
 	<div class="container">
 		<div class="dd-menu-container">
 			<ul>
@@ -70,8 +75,13 @@
 	</div>
 </section>
 
+
+
 <script>
 	$('.dd-menu-container #js-hover').hover(function(){
 		$(this).find('.dd-sub-menu').stop().slideToggle();
+	});
+	$('.dd-ico').click(function(){
+		$('.dd-menu-container').slideToggle();
 	});
 </script>

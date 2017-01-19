@@ -21,7 +21,9 @@
 }
 .dd-number{
 	padding-top: 20px;
+	margin: 0 auto;
 	text-align:center;
+	width: 246px;
 	span{
 		display: inline-block;
 		background: url(../img/call.png) no-repeat left center;
@@ -29,6 +31,17 @@
 		font-size: 28px;
 		color: #c30005;
 		padding-left: 38px;
+	}
+	.dd-wr{
+		text-align: left;
+		span{
+			font-family: "RobotoRegular";
+			display: inline-block;
+			background: url(../img/mess.png) no-repeat left center;
+			font-size: 16px;
+			color: #292929;
+			padding-left: 28px;
+		}
 	}
 }
 
@@ -38,30 +51,42 @@
 	width: 100%;
 	background-size: cover;
 }
-
-
-
+.ico-wrap{
+	position:relative;
+	background: #272822;
+	z-index:9999;
+	height: 41px;
+}
+.dd-ico{
+	position:absolute;
+	left:10px;
+	top:10px;
+	cursor:pointer;
+}
 .dd-menu-container{
+	text-align:center;
+	display:none;
 	li{
-		display: inline-block;
-		padding-left: 24px;
+		// display: inline-block;
+		display: block;
+		width: 100px;
+		margin: 0 auto;
+		// padding-left: 24px;
 		.dd-main-style{
-			padding: 13px 61px 13px 10px;
+			// padding: 13px 61px 13px 10px;
 			font-family: "RobotoRegular";
 			color:#fff;
 			font-size: 16px;
-			display: inline-block;
+			display: block;
+			// display: inline-block;
 			transition: all 0.7s;
 		}
 		.dd-main-style:hover{
 			background: #FDEC04;
 			color:black;
 		}
-		// .dd-main-style:hover .dd-sub-menu li{
-		// 	display: block;
-		// }
 		.dd-last{
-			padding: 13px 10px 13px 30px;
+			// padding: 13px 10px 13px 30px;
 		}
 	}
 	.no-padding{
@@ -78,13 +103,14 @@
 	z-index: 9999;
 	min-width: 136px;
 	padding-bottom: 5px;
-	padding-right: 5px;
+	padding-right: 9px;
+	text-align:left;
 	li{
-		display: block;
-		padding-left: 9px;
+		display: block !important;
+		padding-left: 9px !important;
 		a{
 			font-size: 16px;
-			display: block;
+			display: block !important;
 			color: #292929;
 			font-family: "RobotoLight";
 		}
@@ -94,12 +120,18 @@
 		}
 	}
 }
-
-
-
-
-
-
+.float{
+	padding-top: 46px;
+}
+.dd-footer-bottom-txt{
+	text-align:center;
+	padding: 43px 0px 35px;
+	span{
+		 font-family: "RobotoLight";
+		 font-size: 15px;
+		 color: #292929;
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -111,12 +143,42 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-ico{
+		display: none;
+	}
+	.ico-wrap{
+		display: none;
+	}
+	.dd-menu-container{
+		display:block;
+	}
 	.dd-logo{
 		text-align:left;
 	}
 	.dd-number{
 		text-align:right;
+		float: right;
 	}
+	.float{
+		float: left;
+	}
+	.dd-menu-container{
+		text-align:center;
+		li{
+			display: inline-block;
+			width: unset;
+		// margin: 0 auto;
+		padding-left: 24px;
+		.dd-main-style{
+			padding: 13px 61px 13px 10px;
+			display: inline-block;
+		}
+		.dd-last{
+			padding: 13px 10px 13px 30px;
+		}
+	}
+
+}
 }
 
 @media only screen and (min-width : 1248px) {
