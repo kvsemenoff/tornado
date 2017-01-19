@@ -34,6 +34,45 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    var owl = $(".slider-db");
+
+    owl.owlCarousel({
+
+        loop:true,//Зацикливаем слайдер
+        nav:true, //Навигация включена
+        autoplay:false,//автозапуск
+        smartSpeed:1000,//Время движения
+        margin:0,    
+        navText:['<span class="db-left"></span>','<span class="db-right"></span>'],
+        responsive:{
+          0:{
+            items:0
+          },       
+          120:{
+            items:1
+          },
+          240:{
+            items:1
+          },
+          360:{
+            items:2
+          },
+          500:{
+            items:3
+          },
+          700:{
+            items:4
+          },
+          1200:{
+            items:6
+          },
+          1248:{
+            items:6
+          }
+        }
+
+    });
+
  });
 
 
