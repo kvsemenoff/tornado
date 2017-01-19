@@ -37,7 +37,6 @@ $(document).ready(function(){
     var owl = $(".slider-db");
 
     owl.owlCarousel({
-
         loop:true,//Зацикливаем слайдер
         nav:true, //Навигация включена
         autoplay:false,//автозапуск
@@ -73,6 +72,43 @@ $(document).ready(function(){
 
     });
 
+    var owl1 = $(".slider-db1");
+
+    owl1.owlCarousel({
+        loop:true,//Зацикливаем слайдер
+        nav:true, //Навигация включена
+        autoplay:false,//автозапуск
+        smartSpeed:1000,//Время движения
+        margin:0,
+        navText:['<span class="db-left1"></span>','<span class="db-right1"></span>'],
+        responsive:{
+          0:{
+            items:0
+          },       
+          120:{
+            items:1
+          },
+          240:{
+            items:1
+          },
+          360:{
+            items:1
+          },
+          500:{
+            items:2
+          },
+          700:{
+            items:2
+          },
+          1200:{
+            items:3
+          },
+          1248:{
+            items:3
+          }
+        }
+
+    });
  });
 
 
