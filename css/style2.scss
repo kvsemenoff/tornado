@@ -1,3 +1,16 @@
+.section-db-we-view{
+	text-align: center;
+	img{
+		display: inline-block;
+	}
+}
+.submit_padding{
+	padding-top: 30px;
+
+}
+.db-h2-we{
+	padding-bottom: 40px;
+}
 .db-section-whi_view{
 	background: url("../img/db-fon-why.jpg") no-repeat;
 	background-size: cover;
@@ -37,6 +50,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.section-db-we-view{
+padding: 50px 0 !important;
+}
 
 	.db-section-whi_view{
 		padding:65px 0;
