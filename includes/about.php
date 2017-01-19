@@ -1,33 +1,26 @@
-<!doctype html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
-
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
-	<link rel="stylesheet" href="libs/wow/animate.css">
-	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="libs/wow/wow.min.js"></script>
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-
-	<script>
-    	new WOW().init();
-    </script>
-
-	<script src="js/responsiveTabs.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/common.js"></script>
+<section class="section section_padding section_padding-dc_view">
+	<div class="container">		
+		<div class="row">		
+		    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+		        <h2 class="tornado__about_title">
+		            О нашем центре карате
+		        </h2>
+		        <div class="tornado__about">
+		            <p class="tornado__about_text">
+		                О происхождении карате известно только из легенд. Так, по одной из легенд, создателем карате считается Бодхидхарма, основатель дзэн-буддизма, который в 520 г. н.э. перенес свою резиденцию из Индии в Китай, в монастырь Шаолинь, расположенный на склоне лесистой горы Шаоши в нескольких десятках километров от города Чжэнчжоу.
+		            </p>
+		            <p class="tornado__about_text">
+		                В монастыре Шаолинь Бодхидхарма обучал своих учеников умению терпеть (выносливости), развивать силу, быстроту, ловкость, гибкость. Проводимые им тренировки основывались на принципе движений животных с элементами самозащиты и предположительно назывались «18 движений рук архата». Этими упражнениями укреплялась сила духа и тела, осуществлялась подготовка к испытаниям, каковыми являлись длительные сеансы медитации. Кроме того, эти упражнения служили средством защиты на дорогах за пределами монастыря. В дальнейшем методы физических тренировок Бодхидхармы развивались и совершенствовались и стали известны как боевое искусство монастыря Шаолинь. Впоследствии это боевое искусство вывезли с Японию, где оно смешалось с местными приемами борьбы жителей островов.
+		            </p>
+		            <p class="tornado__about_text">
+		                Документально подтвержденных исторических сведений о появлении карате в Японии не так уж много. Известно, что в XII в., когда самурайские дружины Тайра, разбитые в сражении при Дан-ноура (совр. Симоносэки) войсками Минамото, беспорядочно устремились на юг, многие переправились на Окинаву (крупнейший остров архипелага Рюкю, лежащий в 500км от о.Кюсю, в 600км от Тайваня и в 800км от южно-китайского побережья) и там познакомили местных жителей со своим боевым искусством.
+		            </p>
+		            <p class="tornado__about_text">
+		                В 1392г. в Наху, столицу острова, прибыла специальная миссия из 36 китайских колонистов (так называемые «36 принявших подданство»), имевших задание распространять среди местного населения начала знаний по мореплаванию, книгопечатанию и различным ремеслам.
+		            </p>
+		        </div>
+            </div>
+	    </div>
+	</div>
+</section>	
+	
