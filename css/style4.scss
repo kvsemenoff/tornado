@@ -120,7 +120,18 @@
 		}
 	}
 }
-
+.float{
+	padding-top: 46px;
+}
+.dd-footer-bottom-txt{
+	text-align:center;
+	padding: 43px 0px 35px;
+	span{
+		 font-family: "RobotoLight";
+		 font-size: 15px;
+		 color: #292929;
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
