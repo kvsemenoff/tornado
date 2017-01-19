@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <section class="section section-db-we-view">
 	<div class="container">
 		<div class="row">
@@ -27,4 +25,3 @@
 		</div>
 	</div>
 </section>
->>>>>>> 289bbae486143c9d801b8d7a0ff155640cb51aca
