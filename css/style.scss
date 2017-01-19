@@ -35,6 +35,13 @@ input[type="submit"]{
 	font-family: "RobotoRegular";
 	border: 2px solid #c30005;
 	padding: 5px 25px;
+	background-color: #fff;
+	transition:0.5s;
+}
+input[type="submit"]:hover{
+	background: #c30005;
+	color:#fff;
+	transition:0.5s;
 }
 input[type="text"]{
 	font-size: 16px;
@@ -42,6 +49,7 @@ input[type="text"]{
 	font-family: "RobotoRegular";
 	border: 1px solid #fff;
 	padding: 12px 12px;
+
 }
 >>>>>>> e95a1ee4019c2186df9621d312558418ce0fb287
 
