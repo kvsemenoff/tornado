@@ -1,33 +1,102 @@
-<!doctype html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
+<section class="section db-section-whi_view">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="db-why-h2">Почему стоит доверить нам <span>обучение<br> 
+					вашего ребенка каратэ?</span></h2>
+				</div>
+		
+			<div class="clearfix"></div>
+			<div class="col-md-3">
+				<div class="db-why-content">
+					<div class="db-img-box">
+						<img src="img/db-why-one.png" alt="img">
+					</div>
+					<p class="db-p-content">
+						7 тренеров с высшим 
+						физобразованием
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="db-why-content">
+					<div class="db-img-box">
+						<img src="img/db-why-two.png" alt="img">
+					</div>
+					<p class="db-p-content">
+						20 лет стажа
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="db-why-content">
+					<div class="db-img-box">
+						<img src="img/db-why-three.png" alt="img">
+					</div>
+					<p class="db-p-content">
+						1800 медалей 
+						завоевано
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="db-why-content">
+					<div class="db-img-box">
+						<img src="img/db-why-four.png" alt="img">
+					</div>
+					<p class="db-p-content">
+						2300 детей <br>
+						обучено
+					</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
 
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
-	<link rel="stylesheet" href="libs/wow/animate.css">
-	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+			<div class="col-md-3">
+				<div class="db-why-content">
+					<div class="db-img-box">
+						<img src="img/db-why-five.png" alt="img">
+					</div>
+					<p class="db-p-content">
+						1 мастер спорта 
+						международного класса
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="db-why-content">
+					<div class="db-img-box">
+						<img src="img/db-why-six.png" alt="img">
+					</div>
+					<p class="db-p-content">
+						5 мастеров спорта
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="db-why-content">
+					<div class="db-img-box">
+						<img src="img/db-why-seven.png" alt="img">
+					</div>
+					<p class="db-p-content">
+						17 кандидатов 
+						в мастера спорта
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="db-why-content">
+					<div class="db-img-box">
+						<img src="img/db-why-eight.png" alt="img">
+					</div>
+					<p class="db-p-content">
+						41 чемпионов 
+						и призеров первенств
+					</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>		
 
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script src="libs/wow/wow.min.js"></script>
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-
-	<script>
-    	new WOW().init();
-    </script>
-
-	<script src="js/responsiveTabs.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/common.js"></script>
+		</div>
+	</div>
+</section>
