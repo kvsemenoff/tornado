@@ -3,8 +3,7 @@
 		<div class="row">		
 		    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
 		        <center>
-				<div class="logos__slider slider-db">
-				    
+				<div class="logos__slider slider-db">				    
 				    <div class="item">
 				        <div class="logos__slider_padding">
                             <img class="logos__slider_image" src="../img/2.png">
