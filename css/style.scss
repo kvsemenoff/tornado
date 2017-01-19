@@ -5,6 +5,9 @@
 @import "style5.css";
 @import "fonts.css";
 
+.section{
+padding:20px 0;
+}
 
 .clear{
     clear: both;
@@ -27,7 +30,7 @@ input[type="submit"]{
 	font-size: 17px;
 	color:#c30005;
 	font-family: "RobotoRegular";
-	border: 1px solid #c30005;
+	border: 2px solid #c30005;
 	padding: 5px 25px;
 }
 input[type="text"]{

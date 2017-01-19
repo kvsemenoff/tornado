@@ -1,9 +1,44 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.section-db-we-view{
+	text-align: center;
+	img{
+		display: inline-block;
+	}
+}
+.submit_padding{
+	padding-top: 30px;
+
+}
+.db-h2-we{
+	padding-bottom: 40px;
+}
+.db-section-whi_view{
+	background: url("../img/db-fon-why.jpg") no-repeat;
+	background-size: cover;
+	color:white;
+	text-align: center;
+	padding: 20px 0;
+}
+.db-img-box{
+	height:75px;
+}
+.db-why-h2{
+	color:#fff;
+	font-size: 20px;
+	font-weight: 400;
+	span{
+		font-family: "RobotoThin";
+		font-weight: 100;
+	}	
+}
+.db-why-content{
+	padding: 20px 0;
+	// outline: 1px solid red;
+	width:187px;
+	margin: 0 auto;
+	font-family: "RobotoRegular";
+}
+
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -15,6 +50,18 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.section-db-we-view{
+padding: 50px 0 !important;
+}
+
+	.db-section-whi_view{
+		padding:65px 0;
+	}
+
+	.db-why-h2{
+	font-size: 35px;
+	padding-bottom: 4px;
+}
 }
 
 @media only screen and (min-width : 1248px) {
