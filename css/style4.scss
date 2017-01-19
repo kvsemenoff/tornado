@@ -38,6 +38,9 @@
 	width: 100%;
 	background-size: cover;
 }
+
+
+
 .dd-menu-container{
 	li{
 		display: inline-block;
@@ -54,6 +57,9 @@
 			background: #FDEC04;
 			color:black;
 		}
+		// .dd-main-style:hover .dd-sub-menu li{
+		// 	display: block;
+		// }
 		.dd-last{
 			padding: 13px 10px 13px 30px;
 		}
@@ -65,16 +71,26 @@
 
 // sub-menu
 .dd-sub-menu{
+	display:none;
 	position: absolute;
 	background:#fff;
 	border:1px solid #BFBFBF;
+	z-index: 9999;
+	min-width: 136px;
+	padding-bottom: 5px;
+	padding-right: 5px;
 	li{
 		display: block;
+		padding-left: 9px;
 		a{
 			font-size: 16px;
-			display: inline-block;
+			display: block;
 			color: #292929;
 			font-family: "RobotoLight";
+		}
+		a:hover{
+			color:#E7080B;
+			text-decoration: underline;
 		}
 	}
 }
