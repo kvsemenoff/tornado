@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -30,4 +30,4 @@
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/common.js"></script>
+	<script src="js/common.js"></script> -->

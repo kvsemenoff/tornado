@@ -87,11 +87,14 @@
 	text-align: center;
 }
 .df-calendar__links_view{
-	text-align: center;
+	text-align:center;
+	margin: 31px 0 13px 0;	
 	a{
 		display: inline-block;
-		font-family: "RobotoRegular";
-		width: 49%;
+		text-align: center;
+		font-family: "RobotoRegular";		
+		// width: 49.7%;
+		width: 100%;
 		line-height: 30px;
 		font-size: 20px;
 		color:#292929;
@@ -99,11 +102,13 @@
 	}
 }
 .df-calendar__events_view{
-	text-align: left;
+	// text-align: left;
+	text-align: center;
 }
 .df-calendar__textbox_view{
 	background: #fff;
 	margin-bottom: 10px;
+	padding: 5px 0;
 }
 .df-left_view{
 	font-family: "RobotoLight";
@@ -116,16 +121,18 @@
 	padding: 2px 0;
 	text-align: center;
 	transition:0.5s;
+	margin-bottom: 5px;
 }
 .df-right_view{
-	font-family: "RobotoLight";
-	font-family: "RobotoLight";
-	display: inline-block;
+	font-family: "RobotoLight";	
+	display: block;
 	font-size: 15px;
 	color:#292929;
 	line-height: 30px;	
 	text-align: left;
+	padding-left: 7px;
 	transition:0.5s;
+
 }
 .df-calendar__textbox_view:hover{
 	.df-left_view{
@@ -134,13 +141,14 @@
 	}
 	.df-right_view{
 		color:#c30005;
-		transition:0.5s;
+		transition:0.5s;		
 	}
 }
 
 .df-input-calendar{
 	display: inline-block;
-	padding-top: 30px;
+	margin-top: 30px;
+	background: #fff;
 }
 
 
@@ -164,6 +172,25 @@
 	.df-toptext{		
 		padding: 17px 35px 33px 60px;
 	}
+
+	/*calendar*/
+	.df-calendar__links_view a{						
+		width: 49.7%;		
+	}
+	.df-calendar__events_view{
+		text-align: left;	
+	}
+	.df-calendar__textbox_view{		
+		padding: 0;
+	}
+	.df-left_view{		
+		margin-bottom: 0px;
+	}
+	.df-right_view{		
+		display:inline-block;
+		max-width: 850px;
+	}
+
 }
 
 @media only screen and (min-width : 1248px) {
