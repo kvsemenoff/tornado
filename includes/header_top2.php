@@ -4,7 +4,7 @@
 			<div class="my-container">
 				<div class="col-md-4">
 					<div class="dd-logo">
-						<img src="img/logo.png" alt="">
+						<a href="index.php"><img src="img/logo.png" alt=""></a>
 					</div>
 				</div>
 				<div class="col-md-4">
