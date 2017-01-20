@@ -95,7 +95,7 @@ $(document).ready(function(){
             items:1
           },
           500:{
-            items:2
+            items:1
           },
           700:{
             items:2
@@ -131,6 +131,15 @@ $(document).ready(function(){
       }
   });
 
+    $(".tornado__gyms_slider_for_image").hover(
+        function() {                
+            $(this).next().css("display", "block");
+            $(this).next().css('z-index', '200');
+        },
+        function() {              
+            $(this).next().css("display", "none");            
+        }
+    );
  });
 
 

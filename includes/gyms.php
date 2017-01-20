@@ -8,6 +8,7 @@
 		        <div class="tornado__gyms_text">
                     Комфортабельные залы с современным коммуникационным оснащением,<br> оборудованные профессиональными татами и необходимым для занятий спортивным инвентарем. <br>Только в таких условиях проходят тренировки.
 		        </div>
+		        <center>
 		        <div class="tornado__gyms_slider slider-db1">
 				    <div class="item">
 				        <div class="tornado__gyms_slider_padding">
@@ -16,6 +17,8 @@
                             </div>
                             <div class="tornado__gyms_slider_link">
                                 <a href="">ЭКРКУРСИЯ ПО ЗАЛУ</a>
+                            </div>
+                            <div class="tornado__gyms_slider_overlay">
                             </div>
                         </div>
                         <div class="tornado__gyms_slider_text">
@@ -32,6 +35,8 @@
                             <div class="tornado__gyms_slider_link">
                                 <a href="">ЭКРКУРСИЯ ПО ЗАЛУ</a>
                             </div>
+                            <div class="tornado__gyms_slider_overlay">
+                            </div>
                         </div>
                         <div class="tornado__gyms_slider_text">
                             г. Краснодар, мкр. Панорама,<br>
@@ -47,6 +52,8 @@
                             <div class="tornado__gyms_slider_link">
                                 <a href="">ЭКРКУРСИЯ ПО ЗАЛУ</a>
                             </div>
+                            <div class="tornado__gyms_slider_overlay">
+                            </div>
                         </div>
                         <div class="tornado__gyms_slider_text">
                             г. Краснодар, Фестивальный микрорайон,<br>
@@ -55,8 +62,29 @@
                         </div>
 	                </div>
 		        </div>
+		        </center>
             </div>
 	    </div>
 	</div>
 </section>	
-	
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		// Надпись, положение
+		var explode = function(){
+		    $(".tornado__gyms_slider_link").css("top", 
+                $(".tornado__gyms_slider_image").height()/2 - 10 + 'px'
+		    );
+
+            var diff = 40;
+            if ($(document).width() < 320) {
+            	diff = 90;
+            }
+
+		    $(".tornado__gyms_slider_link").css("left", 		    	
+                $(".tornado__gyms_slider_padding").width()/2 - diff + 'px'
+		    );
+		};
+		setTimeout(explode, 500);
+	});
+</script>
