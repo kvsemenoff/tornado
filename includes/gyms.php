@@ -72,16 +72,4 @@
             </div>
 	    </div>
 	</div>
-</section>	
-
-<script type="text/javascript">
-	$(document).ready(function(){
-		// Надпись, положение
-		var explode = function(){
-		    $(".tornado__gyms_slider_link").css("top", 
-                $(".tornado__gyms_slider_image").height()/2 - 10 + 'px'
-		    );
-		};
-		setTimeout(explode, 500);
-	});
-</script>
+</section>
