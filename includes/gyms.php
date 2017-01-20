@@ -75,15 +75,6 @@
 		    $(".tornado__gyms_slider_link").css("top", 
                 $(".tornado__gyms_slider_image").height()/2 - 10 + 'px'
 		    );
-
-            var diff = 40;
-            if ($(document).width() < 320) {
-            	diff = 90;
-            }
-
-		    $(".tornado__gyms_slider_link").css("left", 		    	
-                $(".tornado__gyms_slider_padding").width()/2 - diff + 'px'
-		    );
 		};
 		setTimeout(explode, 500);
 	});
