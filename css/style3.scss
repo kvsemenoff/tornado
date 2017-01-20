@@ -117,16 +117,18 @@
 }
 
 .tornado__gyms_slider_text {
-    color: #292929;
-	font-family: "RobotoRegular";
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 20px;
-	text-align: center;
+	a {
+	    color: #292929;
+		font-family: "RobotoRegular";
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 20px;
+		text-align: center;
+	}
 	padding-top: 19px;
 }
 
-.tornado__gyms_slider_text:hover {
+.tornado__gyms_slider_text a:hover {
     color: #c71116;
 }
 
@@ -135,7 +137,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    top: 100px;
+    top: 50%;
 }
 
 .tornado__gyms_slider_link > a {
@@ -277,16 +279,18 @@
 	}
 
 	.tornado__gyms_slider_text {
-	    color: #292929;
-		font-family: "RobotoRegular";
-		font-size: 15px;
-		font-weight: 400;
-		line-height: 20px;
-		text-align: center;
+		a {
+		    color: #292929;
+			font-family: "RobotoRegular";
+			font-size: 15px;
+			font-weight: 400;
+			line-height: 20px;
+			text-align: center;
+		}
 		padding-top: 19px;
 	}
 
-	.tornado__gyms_slider_text:hover {
+	.tornado__gyms_slider_text a:hover {
 	    color: #c71116;
 	}
 
@@ -295,7 +299,7 @@
 	    position: absolute;
 	    left: 50%;
 	    transform: translate(-50%);
-	    top: 100px;
+	    top: 50%;
 	}
 
 	.tornado__gyms_slider_link > a {
