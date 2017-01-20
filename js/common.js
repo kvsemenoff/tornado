@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-
+$(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
@@ -37,7 +37,6 @@ $(document).ready(function(){
     var owl = $(".slider-db");
 
     owl.owlCarousel({
-
         loop:true,//Зацикливаем слайдер
         nav:true, //Навигация включена
         autoplay:false,//автозапуск
@@ -73,6 +72,74 @@ $(document).ready(function(){
 
     });
 
+    var owl1 = $(".slider-db1");
+
+    owl1.owlCarousel({
+        loop:true,//Зацикливаем слайдер
+        nav:true, //Навигация включена
+        autoplay:false,//автозапуск
+        smartSpeed:1000,//Время движения
+        margin:0,
+        navText:['<span class="db-left1"></span>','<span class="db-right1"></span>'],
+        responsive:{
+          0:{
+            items:0
+          },       
+          120:{
+            items:1
+          },
+          240:{
+            items:1
+          },
+          360:{
+            items:1
+          },
+          500:{
+            items:1
+          },
+          700:{
+            items:2
+          },
+          1200:{
+            items:3
+          },
+          1248:{
+            items:3
+          }
+        }
+
+    });
+
+    var owl2 = $("#df-js-slider");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:0,    
+        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        responsive:{
+            0:{
+              items:1
+          },       
+          1000:{
+              items:1
+          },
+          1248:{
+              items:1
+          }
+      }
+  });
+
+    $(".tornado__gyms_slider_for_image").hover(
+        function() {                
+            $(this).next().css("display", "block");
+            $(this).next().css('z-index', '200');
+        },
+        function() {              
+            $(this).next().css("display", "none");            
+        }
+    );
  });
 
 
