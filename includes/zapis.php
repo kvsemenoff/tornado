@@ -9,7 +9,7 @@
 					<input type="text" placeholder="Наше имя">
 				</div>
 				<div class="col-md-4">
-					<input type="text" placeholder="Наш телефон">
+					<input type="text" placeholder="Наш телефон" class="phone">
 				</div>
 				<div class="col-md-4">
 					<input type="submit" value="ХОЧУ ПОПРОБОВАТЬ!" class="db-zapis-submit">
