@@ -20,14 +20,6 @@
 
 .section_padding-dc_view1 {
 	text-align: center;
-    h2 {
-		display:inline-block;
-		font-size: 30px;
-		font-family: "RobotoRegular";
-		text-transform:uppercase;
-		padding-top: 55px;
-    	padding-bottom: 35px;
-    }
     background: url("../img/dc-bg.jpg") no-repeat top center;
     height: 215px;
     width: 100%;
@@ -197,14 +189,6 @@
 @media only screen and (min-width : 992px) {
 	.section_padding-dc_view1 {
 		text-align: center;
-	    h2 {
-			display:inline-block;
-			font-size: 30px;
-			font-family: "RobotoRegular";
-			text-transform:uppercase;
-			padding-top: 55px;
-	    	padding-bottom: 35px;
-	    }
 	    background: url("../img/dc-bg.jpg") no-repeat top center;
 	    height: 215px;
 	    width: 100%;
@@ -231,15 +215,15 @@
 	    top: 45%;
 	}
 
+
 	.logos__slider {
 		padding-left: 8%;
-	    padding-right: 8%;	    
-	}
-
-	.logos__slider_padding {
-		padding-top: 20px !important;
-        width: 152px;
-        height: auto;
+	    padding-right: 8%;
+		.logos__slider_padding {
+			padding-top: 20px !important;
+	        width: 152px;
+	        height: auto;
+		}
 	}
 
 
