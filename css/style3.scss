@@ -133,7 +133,8 @@
 .tornado__gyms_slider_link {
     display: none;
     position: absolute;
-    left: 115px;
+    left: 50%;
+    transform: translate(-50%);
     top: 100px;
 }
 
@@ -147,20 +148,13 @@
 }
 
 .tornado__gyms_slider_image {
-    height: 202px;
-    width: 302px;    
 }
 
 .tornado__gyms_slider_padding {
-    height: 202px;
-    width: 302px;
 }
 
 .tornado__gyms_slider_for_image {
     position: relative;
-    display: inline-block;
-    height: 202px;
-    width: 302px;
     z-index: 1;
 }
 
@@ -314,20 +308,13 @@
 	}
 
 	.tornado__gyms_slider_image {
-	    height: 202px;
-	    width: 302px;    
 	}
 
 	.tornado__gyms_slider_padding {
-	    height: 202px;
-	    width: 302px;
 	}
 
 	.tornado__gyms_slider_for_image {
 	    position: relative;
-	    display: inline-block;
-	    height: 202px;
-	    width: 302px;
 	    z-index: 1;
 	}
 
