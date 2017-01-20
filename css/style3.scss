@@ -88,12 +88,37 @@
     top: 25%;
 }
 
+// .tornado__gyms_slider {
+// 	.item {
+//         margin-left: 17px;
+//         margin-right: 17px;
+// 	}	
+// 	width: 88%;
+// }
+
 .tornado__gyms_slider {
 	.item {
         margin-left: 17px;
         margin-right: 17px;
 	}
-	width: 88%;
+	.item:hover {
+		.tornado__gyms_slider_text a {
+			color: #c71116;
+		}
+		.tornado__gyms_slider_for_image:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.4);
+			top:0;
+			left: 0;
+			z-index: 10;
+		}
+		.tornado__gyms_slider_link {
+            display: inline-block;
+        }
+	}
 }
 
 .tornado__gyms_title {
@@ -134,13 +159,12 @@
 
 .tornado__gyms_slider_link {
     display: none;
+    z-index: 200;
+
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
     top: 30%;
-}
-
-.tornado__gyms_slider_link > a {
 	color: #e6e035;
 	font-family: "RobotoMedium";
 	font-size: 15px;
@@ -158,18 +182,6 @@
 .tornado__gyms_slider_for_image {
     position: relative;
     z-index: 1;
-}
-
-.tornado__gyms_slider_for_image:hover:before {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: black;
-	opacity: 0.4;
-	top:0;
-	left: 0;
-	z-index: 10;
 }
 
 @media only screen and (min-width : 320px) {
@@ -251,13 +263,6 @@
 	    top: 30%;
 	}
 
-	.tornado__gyms_slider {
-		.item {
-	        margin-left: 17px;
-	        margin-right: 17px;
-		}
-	}
-
 	.tornado__gyms_title {
 		font-family: "RobotoRegular";
 		font-size: 35px;
@@ -290,26 +295,8 @@
 		padding-top: 19px;
 	}
 
-	.tornado__gyms_slider_text a:hover {
-	    color: #c71116;
-	}
+	
 
-	.tornado__gyms_slider_link {
-	    display: none;
-	    position: absolute;
-	    left: 50%;
-	    transform: translate(-50%, 0%);
-	    top: 30%;
-	}
-
-	.tornado__gyms_slider_link > a {
-		color: #e6e035;
-		font-family: "RobotoMedium";
-		font-size: 15px;
-		font-weight: 500;
-		line-height: 20px;
-		text-decoration: underline;
-	}
 
 	.tornado__gyms_slider_image {
 	}
@@ -320,18 +307,6 @@
 	.tornado__gyms_slider_for_image {
 	    position: relative;
 	    z-index: 1;
-	}
-
-	.tornado__gyms_slider_for_image:hover:before {
-		content: '';
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background: black;
-		opacity: 0.4;
-		top:0;
-		left: 0;
-		z-index: 10;
 	}
 }
 

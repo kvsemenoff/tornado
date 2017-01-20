@@ -131,15 +131,15 @@ $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
       }
   });
 
-    $(".tornado__gyms_slider_for_image").hover(
-        function() {                
-            $(this).next().css("display", "block");
-            $(this).next().css('z-index', '200');
-        },
-        function() {              
-            $(this).next().css("display", "none");            
-        }
-    );
+    // $(".tornado__gyms_slider_for_image").hover(
+    //     function() {                
+    //         $(this).next().css("display", "block");
+    //         $(this).next().css('z-index', '200');
+    //     },
+    //     function() {              
+    //         $(this).next().css("display", "none");            
+    //     }
+    // );
  });
 
 
