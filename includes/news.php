@@ -6,18 +6,21 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-md-4 col-sm-12 col-xs-12">
-				<a href="#">
-					<div class="db-new-imgbox">
-						<img src="img/db-news-one.jpg" alt="img">
+			<div class="db-news-container1">		
+					<a href="#">
+						<div class="db-new-imgbox">
+							<img src="img/db-news-one.jpg" alt="img">
+						</div>
+					</a>
+					<p>
+						<a href="#">РЕЗУЛЬТАТЫ ПЕРВЕНСТВА ЮФО<br> 
+							ПО КАРАТЭ Г. САЛЬСК</a><br>
+							<span>5 января 2017 года</span>
+						</p>
 					</div>
-				</a>
-				<p>
-					<a href="#">РЕЗУЛЬТАТЫ ПЕРВЕНСТВА ЮФО<br> 
-						ПО КАРАТЭ Г. САЛЬСК</a><br>
-						<span>5 января 2017 года</span>
-					</p>
 				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="db-news-container2">	
 					<a href="#"><div class="db-new-imgbox">
 						<img src="img/db-news-two.jpg" alt="img">
 					</div>
@@ -28,7 +31,9 @@
 						<span>5 января 2017 года</span>
 					</p>
 				</div>
+				</div>
 				<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="db-news-container3">	
 					<a href="#"><div class="db-new-imgbox">
 						<img src="img/db-news-three.jpg" alt="img">
 					</div>
@@ -38,6 +43,7 @@
 						ДЕКАБРЯ</a><br>
 						<span>5 января 2017 года</span>
 					</p>
+				</div>
 				</div>
 				<div class="clearfix"></div>
 				<div class="col-md-12">

@@ -55,6 +55,24 @@
 		}
 	}
 }
+.db-news-container1:hover, .db-news-container2:hover, .db-news-container3:hover{
+
+	
+a{
+			color: #c30005;
+		}
+.db-new-imgbox:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background: #020000;
+  opacity: 0.4;
+ 
+ }
+}
 .db-new-imgbox{
 	margin: 0 auto;
 	position:relative;
