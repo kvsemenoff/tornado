@@ -1,5 +1,5 @@
 <section>
-	<div class="container">
+	<div class="container my-padding">
 		<div class="row">
 			<div class="col-md-6">
 				<div class="dd-social float">

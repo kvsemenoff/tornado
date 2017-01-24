@@ -20,14 +20,6 @@
 
 .section_padding-dc_view1 {
 	text-align: center;
-    h2 {
-		display:inline-block;
-		font-size: 30px;
-		font-family: "RobotoRegular";
-		text-transform:uppercase;
-		padding-top: 55px;
-    	padding-bottom: 35px;
-    }
     background: url("../img/dc-bg.jpg") no-repeat top center;
     height: 215px;
     width: 100%;
@@ -75,7 +67,7 @@
 	background: url('../img/dc-arrow-back.png') no-repeat;
 	position: absolute;
     left: -30px;
-	top: 30%;
+	top: 25%;
 }
 
 .db-right1 {
@@ -85,19 +77,103 @@
 	background: url('../img/dc-arrow-forward.png') no-repeat;
 	position: absolute;
 	right: -30px;
-    top: 30%;
+    top: 25%;
 }
+
+// .tornado__gyms_slider {
+// 	.item {
+//         margin-left: 17px;
+//         margin-right: 17px;
+// 	}	
+// 	width: 88%;
+// }
 
 .tornado__gyms_slider {
 	.item {
         margin-left: 17px;
         margin-right: 17px;
 	}
+	.item:hover {
+		.tornado__gyms_slider_text a {
+			color: #c71116;
+		}
+		.tornado__gyms_slider_for_image:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.4);
+			top:0;
+			left: 0;
+			z-index: 10;
+		}
+		.tornado__gyms_slider_link {
+            display: inline-block;
+        }
+	}
 }
 
 .tornado__gyms_title {
 	font-family: "RobotoRegular";
 	font-size: 35px;
+	color: #292929;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.tornado__gyms_text {
+	color: #292929;
+	font-family: "RobotoLight";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 42px;
+}
+
+.tornado__gyms_slider_text {
+	a {
+	    color: #292929;
+		font-family: "RobotoRegular";
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 20px;
+		text-align: center;
+	}
+	padding-top: 19px;
+}
+
+.tornado__gyms_slider_text a:hover {
+    color: #c71116;
+}
+
+.tornado__gyms_slider_link {
+    display: none;
+    z-index: 200;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 30%;
+	color: #e6e035;
+	font-family: "RobotoMedium";
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+	text-decoration: underline;
+}
+
+.tornado__gyms_slider_image {
+}
+
+.tornado__gyms_slider_padding {
+}
+
+.tornado__gyms_slider_for_image {
+    position: relative;
+    z-index: 1;
 }
 
 @media only screen and (min-width : 320px) {
@@ -113,14 +189,6 @@
 @media only screen and (min-width : 992px) {
 	.section_padding-dc_view1 {
 		text-align: center;
-	    h2 {
-			display:inline-block;
-			font-size: 30px;
-			font-family: "RobotoRegular";
-			text-transform:uppercase;
-			padding-top: 55px;
-	    	padding-bottom: 35px;
-	    }
 	    background: url("../img/dc-bg.jpg") no-repeat top center;
 	    height: 215px;
 	    width: 100%;
@@ -147,15 +215,82 @@
 	    top: 45%;
 	}
 
+
 	.logos__slider {
 		padding-left: 8%;
-	    padding-right: 8%;	    
+	    padding-right: 8%;
+		.logos__slider_padding {
+			padding-top: 20px !important;
+	        width: 152px;
+	        height: auto;
+		}
 	}
 
-	.logos__slider_padding {
-		padding-top: 20px !important;
-        width: 152px;
-        height: auto;
+
+	.db-left1 {
+		width: 23px;
+		height: 43px;
+		display: block;
+		background: url('../img/dc-arrow-back.png') no-repeat;
+		position: absolute;
+	    left: -30px;
+		top: 30%;
+	}
+
+	.db-right1 {
+		width: 23px;
+		height: 43px;
+		display: block;
+		background: url('../img/dc-arrow-forward.png') no-repeat;
+		position: absolute;
+		right: -30px;
+	    top: 30%;
+	}
+
+	.tornado__gyms_title {
+		font-family: "RobotoRegular";
+		font-size: 35px;
+		color: #292929;
+		font-size: 35px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+
+	.tornado__gyms_text {
+		color: #292929;
+		font-family: "RobotoLight";
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 30px;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 42px;
+	}
+
+	.tornado__gyms_slider_text {
+		a {
+		    color: #292929;
+			font-family: "RobotoRegular";
+			font-size: 15px;
+			font-weight: 400;
+			line-height: 20px;
+			text-align: center;
+		}
+		padding-top: 19px;
+	}
+
+	
+
+
+	.tornado__gyms_slider_image {
+	}
+
+	.tornado__gyms_slider_padding {
+	}
+
+	.tornado__gyms_slider_for_image {
+	    position: relative;
+	    z-index: 1;
 	}
 }
 
