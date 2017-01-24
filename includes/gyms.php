@@ -15,11 +15,9 @@
                             <div class="tornado__gyms_slider_for_image">
                                 <img class="tornado__gyms_slider_image" src="../img/dc-gyms-1.jpg">
                             </div>
-                            <div class="tornado__gyms_slider_link">
-                                <a href="">ЭКРКУРСИЯ ПО ЗАЛУ</a>
-                            </div>
-                            <div class="tornado__gyms_slider_overlay">
-                            </div>
+                                <a class="tornado__gyms_slider_link" href="#">
+                                    ЭКРКУРСИЯ ПО ЗАЛУ
+                                </a>
                         </div>
                         <div class="tornado__gyms_slider_text">
                             <a href="">
@@ -34,11 +32,9 @@
 				            <div class="tornado__gyms_slider_for_image">
                                 <img class="tornado__gyms_slider_image" src="../img/dc-gyms-2.jpg">
                             </div>
-                            <div class="tornado__gyms_slider_link">
-                                <a href="">ЭКРКУРСИЯ ПО ЗАЛУ</a>
-                            </div>
-                            <div class="tornado__gyms_slider_overlay">
-                            </div>
+                            <a class="tornado__gyms_slider_link" href="#">
+                                ЭКРКУРСИЯ ПО ЗАЛУ
+                            </a>
                         </div>
                         <div class="tornado__gyms_slider_text">
                             <a href="">
@@ -53,11 +49,9 @@
 				            <div class="tornado__gyms_slider_for_image">
                                 <img class="tornado__gyms_slider_image" src="../img/dc-gyms-3.jpg">
                             </div>
-                            <div class="tornado__gyms_slider_link">
-                                <a href="">ЭКРКУРСИЯ ПО ЗАЛУ</a>
-                            </div>
-                            <div class="tornado__gyms_slider_overlay">
-                            </div>
+                            <a class="tornado__gyms_slider_link" href="#">
+                                ЭКРКУРСИЯ ПО ЗАЛУ
+                            </a>
                         </div>
                         <div class="tornado__gyms_slider_text">
                             <a href="">
