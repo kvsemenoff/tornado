@@ -131,6 +131,27 @@ $(".phone").mask("+ 7 (999) 999 - 99 - 99?");
       }
   });
 
+     var owl3 = $(".df-treners-slider");
+    owl3.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:0,    
+        navText:['<span class="df-left1"></span>','<span class="df-right1"></span>'],
+        responsive:{
+            0:{
+              items:2
+          },       
+          1000:{
+              items:4
+          },
+          1248:{
+              items:6
+          }
+      }
+  });
+
     // $(".tornado__gyms_slider_for_image").hover(
     //     function() {                
     //         $(this).next().css("display", "block");
